@@ -19,7 +19,7 @@ class EntriesController extends Controller
 
     }
     public function getUserEntries(){
-        return Auth::user()->entries()->orderBy('id', 'DESC')->get()->toJSON();
+        return 'dave';
     }
 
 }
